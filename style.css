@@ -27,5 +27,42 @@ main{
 .pokemon-image{
     position: absolute;
     bottom: 62%;
-    left: 52%;
+    left: 51%;
+    height: 16%;
 }
+.pokemon_data{
+    position: absolute;
+    font-weight: 600;
+    color:#7fa07d;
+    top: 65%;
+    right: 49%;
+    font-size:clamp(1px,2vw,25px);
+}
+.pokemon_name{
+    position: absolute;
+    padding-left: 10px;
+    color:#577656 ;
+}
+.form{ 
+    position: absolute;
+    width: 20%;
+    max-width:180px;
+    top: 76%;
+    left: 46.5%;
+}
+.input_search{
+ width: 100%;
+ padding: 0.5%;
+ outline: none ;
+ border: 2px solid #577656;
+ color: #577656;
+ font-size:clamp(1px,2vw,15px);
+ background-color:#b6e4b0 ;
+ text-align: center;
+}
+input::placeholder{
+    color: #577656;  
+}
+
+
+
