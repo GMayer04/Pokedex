@@ -63,6 +63,19 @@ main{
 input::placeholder{
     color: #577656;  
 }
+.buttons{
+ position: absolute;
+ top: 72%;
+ bottom: 10%;
+ left: 7%;
+ width: 60%;
+}
+.button{
+    border: 2px solid black;
+    border-radius: 100%;
+    font-size:clamp(1px,2vw,15px);
+    padding: 0.5%;
 
+}
 
 
